@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Video</title>
+
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="formbox">
+      <h1>Add Tiny Video Here</h1>
+      <hr />
+      <form method="post" class="form" enctype='multipart/form-data'>
+        {% csrf_token %}
+        <h4 class="label">Video Tittle</h4>
+        <input
+          placeholder="Video Tittle"
+          type="text"
+          class="inputtag"
+          name="TinyVideo_Tittle"
+          required
+        />
+        <h4 class="label">Video</h4>
+        <input
+          placeholder="Video Tittle"
+          type="file"
+          accpet="video/*"
+          name="TinyVideo_Video"
+          required
+        />
+        <br />
+        <input type="submit" value="Submit" class="submit" />
+      </form>
+    </div>
+
+    <script>
+      {% for message in messages %}
+      alert('{{message}}')
+      {% endfor %}
+    </script>
+  </body>
+</html>

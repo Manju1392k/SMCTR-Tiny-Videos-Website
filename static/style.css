@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #41436A;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.infobox {
+    margin-top: 1rem;
+    width: 32vw;
+    height: 15rem;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infobox img {
+    height: 7rem;
+}
+
+.videobox {
+    width: 27vw;
+    height: 96vh;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 1rem;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.videplaying {
+    width: 25vw;
+    height: 85vh;
+}
+
+.videobox::-webkit-scrollbar {
+    display: none;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.redbox {
+    width: 25vw;
+    height: 94vh;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    scroll-snap-align: center;
+    background-color: #000;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.formbox {
+    width: 90vw;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.label {
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+
+.inputtag {
+    width: 60vw;
+    padding: 10px;
+    padding-left: 12px;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+.inputtag:focus {
+    border-bottom: 2px solid blue;
+    outline: none;
+}
+
+.submit {
+    margin-top: 1rem;
+    padding: 12px 25px;
+    border-radius: 22px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.submit:active {
+    background-color: rgb(89, 82, 82);
+}
+
+.form {
+    margin: auto;
+    width: 60vw;
+}
+
+.redbox2 {
+    display: none;
+}
+
+/* media quries for responsive design */
+
+@media screen and (max-width: 1030px) {
+
+    .infobox {
+        display: none;
+    }
+
+    .videobox {
+        width: 94vw;
+    }
+
+    .videplaying {
+        width: 92vw;
+    }
+
+    .redbox {
+        width: 93vw;
+    }
+
+    .redbox2 {
+        width: 93vw;
+        height: 94vh;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        scroll-snap-align: center;
+        background-color: #000;
+        border-radius: 8px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .redbox2 img {
+        height: 6rem;
+    }
+
+    .linkmobile {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .form {
+        width: 75vw;
+    }
+
+    .inputtag {
+        width: 65vw;
+    }
+
+}

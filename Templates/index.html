@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMCTR TinyVideo's</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="infobox">
+            <img src="/static/logo.png" alt="">
+            <h3>SMCTR tinyVideo is website like Youtube Shorts, Instagram Reels and Tiktok</h3>
+        </div>
+
+        <div class="videobox">
+
+            <div class="redbox2">
+                <h4>SMCTR Tiny Video</h4>
+                <img src="/static/logo.png" alt="">
+                <h4><a href='{% url 'addvideo' %}' class='linkmobile'>Add Tiny Video</a></h4>
+            </div>
+
+            {% for item in tinyvideos %}
+            <div class="redbox">
+                <h4>{{item.TinyVideo_Tittle}}</h4>
+                <video class='videplaying' controls loop>
+                    <source src='/media/{{item.TinyVideo_Video}}' />
+                </vide>
+            </div>
+            {% endfor %}
+           
+        </div>
+
+        <div class="infobox">
+            <img src="/static/logo.png" alt="">
+           <h4><a href='{% url 'addvideo' %}' class='link'>Add Tiny Video</a></h4>
+        </div>
+
+    </div>
+
+    <script>
+        {% for message in messages %}
+        alert('{{message}}')
+        {% endfor %}
+    </script>
+    
+</body>
+</html>
