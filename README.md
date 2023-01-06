@@ -21,9 +21,9 @@ __SMCTR Tiny Video is a website that works in the same way as YouTube Shorts and
 
 # Superuser Details
 
-* The superuser account is used for to **Access the DataBase**
+* The superuser account is used to **access the database.**
 
-* The username and password for django admin panel
+* The username and password for the Django admin panel
 
 | Username & Password |
 | ------------- | 
@@ -34,8 +34,8 @@ __SMCTR Tiny Video is a website that works in the same way as YouTube Shorts and
 
 # 🗂️ Framework & Languages
 
-* The Below Table Framework&Language's is used in this project. To run this Project. This framework&Language's has been installed in
- system with same Version or Latest Version
+* This project makes use of the Framework and Language listed below.to run this project. This framework and language have been installed in
+system with the same version or the latest version
 
 | Framework  | Version |
 | ------------- | ------------- |
@@ -54,33 +54,33 @@ python manage.py runserver
 
 # ⬇️ Code Downloading Process
 
-* You Can Download the code in **2 Methods**
-* Choose Any One Methode has your whish
+* There are 2 ways to get the code.
+* Choose whichever method best suits your needs. 
 
 ---
 
-# Ⓜ️ Methode 1
+# Ⓜ️ Method 1
 
-* **This Methode is Very Easy**
+* **This method is very easy.**
 
-* Now Click on __Code Option__
+* Now select the **code option.** 
 
 ![Screenshot (158)](https://user-images.githubusercontent.com/66934377/164152919-f2854829-535d-4227-9c2f-031f8051f6ac.png)
 
-* Now A Screen will Popup. Now Click **Download Zip** Option . Now the file has been started downloading 
+* Now a screen will pop up. Now select the **Download Zip** option. Now the file has started downloading.
 
 ![Screenshot (159)](https://user-images.githubusercontent.com/66934377/164153128-b64e85a2-e40c-4457-9835-a749ac79acd6.png)
 
 ---
 
-# Ⓜ️ Methode 2
+# Ⓜ️ Method 2
 
-* **This Methode is tittle bit Hard**
+* **This method is a little difficult.**
 
-* Now Open **cmd** in windows, **bash Terminal** in mac. Now Hit the Below Command's
+* Now In **Windows, open cmd, in Mac, bash Terminal**. Now Hit the below commands.
 
 ```bash
 git clone https://github.com/Manju1392k/SMCTR-Tiny-Videos-Website.git
 ```
 
-* The project cloned after this process
+* The project was cloned after this process.
