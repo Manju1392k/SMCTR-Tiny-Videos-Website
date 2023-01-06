@@ -44,7 +44,7 @@ system with the same version or the latest version
 
 ---
 
-# 👨‍💻 Command for Execute Project
+# 👨‍💻 Project Execution Command 
 
 ```bash 
 python manage.py runserver
